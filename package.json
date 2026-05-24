@@ -1,0 +1,12 @@
+{
+    "name":"sda-net",
+    "version":"1.0.0",
+    "discription":"SDA-NET WEB APP",
+    "main":"server.js",
+    "scripts":{
+        "start":"node server.js"
+    },
+    "dependencies":{
+        "express":"^4.19.2"
+    }
+}      

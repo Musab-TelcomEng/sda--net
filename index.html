@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بلاغات الشبكة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>نظام بلاغات الشبكة</h1>
+        <p>قم بارسال بلاغ عن مشكله في الشبكة</p>
+        <form id="reportform">
+            <label>اسم المبلغ:</label>
+            <input type="text" id="name" placeholder="أكتب اسمك"required>
+            <label>الموقع:</label>
+            <input type="text" id="location" placeholder="مثلاِِ:النيل الأبيض -نعيمه"required>
+            <label>نوع المشكله:</label>
+            <textarea id="issue" placeholder="أكتب تفاصيل المشكلة"required>
+</textarea>
+<label>الأولوية:</label>
+<select id="priority"required>
+    <option value="">اختر</option>
+    <option value="عادي">عادي</option>
+    <option value="متوسط">متوسط</option>
+    <option value="عاجل">عاجل</option>
+</select>
+<button type="submit">ارسال البلاغ</button>
+        </form>
+        <p id="msg"></p>
+        <a class="admin-link" href="admin.html">
+            لوحه الاداره
+        </a>
+    </div>
+    <script src="script.js"></script>
+    <div class="side-comment">
+        designed by:Eng MUSAB TARIG
+    </div>
+</body>
+</html>
